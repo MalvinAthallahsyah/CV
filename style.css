@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container to center the resume and give it a clean layout */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header img {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.contact {
+  font-size: 0.95rem;
+  margin-bottom: 5px;
+}
+
+.contact a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.address {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Section heading styles */
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid #333;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+/* Experience, volunteer, project, etc. item styling */
+.experience-item,
+.volunteer-item,
+.project-item,
+.job-item {
+  margin-bottom: 15px;
+}
+
+.experience-item h3,
+.volunteer-item h3,
+.project-item h3,
+.job-item h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.date {
+  display: block;
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+/* Lists inside each section */
+ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Additional Information styling */
+.additional p {
+  margin-bottom: 5px;
+}
